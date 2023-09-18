@@ -1,0 +1,9 @@
+.Rounded_Button{
+    border-radius: 100%;
+    background-color: rgb(66, 66, 66);
+    padding: 10px 15px;
+    color: #FFF;
+}
+.Rounded_Button:hover{
+    background-color: coral;
+}

@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  font-size: 62.5%; 
+  /* 1 rem est normalement égale a 16px mais si on ajuste le font-size de html a 62.5% le 1 rem va être égale a 10px*/
+}
+
+body{
+  font-size: 2rem;
+  background-color: #001227;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container{
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
